@@ -1,0 +1,6 @@
+body {
+    background-image: url('descarga.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Posiciona la imagen en el centro */
+}

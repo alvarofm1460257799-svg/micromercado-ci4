@@ -1,0 +1,162 @@
+*{
+    font-family: 'Roboto', sans-serif; /* Aplica la fuente Roboto */
+}
+.logo_producto {
+    background-image: url(productos.png);
+    width: 44px;
+    height: 31px; /* Ajusta la altura según sea necesario */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir el contenedor */
+
+
+    filter: brightness(1);
+    
+}
+
+.logo_stock {
+    background-image: url(stock.png);
+    width: 37px;
+    height: 41px; /* Ajusta la altura según sea necesario */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir el contenedor */
+    filter: brightness(0.4) opacity(0.7);
+
+    margin-top: -8px;
+    
+}
+.logo_cliente {
+    background-image: url(clientes.png);
+    width: 45px;
+    height: 25px; /* Ajusta la altura según sea necesario */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir el contenedor */
+    margin-top: -7px;
+    margin-left: 5px;
+
+
+    filter: brightness(0.4) opacity(0.7);
+
+    padding: 10px;
+}
+.logo_compras {
+    background-image: url(compras.png);
+    width: 42px;
+    height: 22px; /* Ajusta la altura según sea necesario */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir el contenedor */
+
+    filter: brightness(0.4) opacity(0.7);
+
+    padding: 10px;
+}
+.logo_caja {
+    background-image: url(caja.png);
+    width: 44px;
+    height: 28px; /* Ajusta la altura según sea necesario */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir el contenedor */
+    margin-top: -6px;
+    margin-left: -4px;
+
+
+    filter: brightness(0.4) opacity(0.7);
+
+    padding: 10px;
+}
+.logo_ventas {
+    background-image: url(ventas.png);
+    width: 34px;
+    height: 34px; /* Ajusta la altura según sea necesario */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir el contenedor */
+    margin-top: -3px;
+    margin-left: 7px;
+
+
+    filter: brightness(0.4) opacity(0.7);
+
+    padding: 10px;
+}
+.logo_reportes {
+    background-image: url(reportes.png);
+    width: 35px;
+    height: 27px; /* Ajusta la altura según sea necesario */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir el contenedor */
+    margin-top: -5px;
+    margin-left: 2px;
+
+
+    filter: brightness(0.4) opacity(0.7);
+
+    padding: 10px;
+}
+.logo_administracion {
+    background-image: url(administracion.png);
+    width: 34px;
+    height: 37px; /* Ajusta la altura según sea necesario */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir el contenedor */
+    margin-top: -10px;
+    margin-left: 3px;
+
+
+    filter: brightness(0.4) opacity(0.7);
+
+    padding: 10px;
+}
+.logo_usuario {
+    background-image: url(usuario2.png);
+    width: 36px;
+    height: 35px; /* Ajusta la altura según sea necesario */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir el contenedor */
+    margin-top: -5px;
+    margin-left: 3px;
+
+
+    filter: brightness(0.4) opacity(0.7);
+
+    padding: 10px;
+}
+/*.barra{
+    background-image: url(barra1.png);
+
+    background-size: cover;  Ajusta la imagen de fondo para cubrir el contenedor 
+    margin-left: -200px;
+    
+    filter: brightness(0) invert(1);
+    padding: 8px;
+    
+}*/
+
+/* Cambiar color del buscador (input de búsqueda) */
+
+.dataTables_filter input {
+    background-color: #30e98d36; /* Cambia a tu color preferido */
+    color: #0d6153;
+    border: 0.5px solid #06a58a;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+}
+
+
+/* Cambiar color del selector de longitud */
+.dataTables_length select {
+    background-color: #30e98d36; /* Cambia a tu color preferido */
+    color: #036d51;
+    border: 1px solid #036d51;
+    padding: 5px;
+    border-radius: 13px;
+
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: #06a58a !important;
+    color: #ffffff !important; /* Color del texto */
+    border: 1px solid #036d51 !important; /* Borde del botón */
+}
+
+/* Cambiar el color de los otros botones de paginación cuando se pasa el cursor */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    background-color: #30e98d36 !important; /* Cambia a tu color preferido */
+
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background-color: #06a58a73 !important; /* Cambia a tu color preferido */
+ 
+}
+
