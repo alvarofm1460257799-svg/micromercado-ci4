@@ -28,7 +28,7 @@ if (getcwd() . DIRECTORY_SEPARATOR !== FCPATH) {
 require FCPATH . '../app/Config/Paths.php';
 $paths = new Config\Paths();
 
-// Load framework bootstrap
+// Carga bootstrap del framework
 require rtrim($paths->systemDirectory, '\\/ ') . DIRECTORY_SEPARATOR . 'bootstrap.php';
 
 // Load environment from .env
