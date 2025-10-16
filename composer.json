@@ -1,10 +1,15 @@
 {
     "name": "micromercado/ci4",
     "description": "Sistema CodeIgniter 4 listo para Railway",
+    "type": "project",
     "require": {
         "php": "^8.0",
-        "codeigniter4/framework": "^4",
+        "codeigniter4/framework": "^4.3",
         "phpoffice/phpspreadsheet": "^2.2"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.21",
+        "phpunit/phpunit": "^9.6"
     },
     "autoload": {
         "psr-4": {
@@ -16,5 +21,7 @@
     },
     "scripts": {
         "start": "php -S 0.0.0.0:$PORT -t public"
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
